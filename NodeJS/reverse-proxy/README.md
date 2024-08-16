@@ -2,6 +2,8 @@
 
 This is a setup guide to generate a website (website.com) that proxies to another website (anotherwebsite.com) for the purpose of changing the domain for testing purposes.
 
+![Reverse Proxy Overview](./images/reverse-proxy-overview.png)
+
 This guide works through:
 
 1. Installing NGINX via homebrew.
@@ -158,5 +160,9 @@ Note: Your hosts (`/private/etc/hosts`) file will need to include your new websi
 # Sample Test Website
 127.0.0.1   website.com
 ```
+
+### Sample Hosts file:
+
+![Sample Hosts file](./images/hosts.png)
 
 Once everything is setup, start NGINX and test the site by navigating to it in your browser.
